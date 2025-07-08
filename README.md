@@ -20,3 +20,16 @@ A simple MERN stack application to track your daily expenses with category-wise 
 - Backend: Node.js + Express
 - Database: MongoDB (Mongoose)
 
+expense-tracker-mern/
+├── backend/
+│ ├── models/
+│ ├── routes/
+│ ├── server.js
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── App.js
+│ │ └── index.js
+│
+├── README.md
