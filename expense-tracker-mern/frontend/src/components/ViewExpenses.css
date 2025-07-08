@@ -1,0 +1,48 @@
+.expense-list {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.expense-list h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c9302c;
+}
+.expense-list h3 {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+

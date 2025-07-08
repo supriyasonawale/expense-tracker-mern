@@ -1,0 +1,43 @@
+.form-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background: #fafafa;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.expense-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.expense-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.expense-form button:hover {
+  background-color: #0056b3;
+}
